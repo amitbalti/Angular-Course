@@ -1,0 +1,18 @@
+Angular - A framework for building client applications in HTML, CSS, and JavaScript / TypeScript.
+TypeScript is more common in the Angular community because Angular itself has been written with TypeScript.
+
+Why do we need Angular?
+    - As our applications get more complex, vanilla JavaScript or jQuery code, becomes hard to maintain.
+    - We need a way to properly structure our application.
+        - There are JavaScript patterns out there that help us with the structuring, but these patterns are hard to understand for a lot of beginners of JavaScript.
+    - Also, a lot of applications built with vanilla JavaScript or jQuery are hard to test.
+
+    - That's why, over the past few years, various frameworks have been built and evolved to make web application development easier.
+        - Angular is an example of such frameworks.
+            
+Benefits of using Angular:
+    - Gives out applications a clean structure - it gives our application a clean and loosely coupled structure that is easy to understand and easy to maintain.
+    - Includes a lot of re-usable code - also brings a lot of utility code that we can reuse in various applications, especially when dealing with the user's navigation and the browser history.
+    - Makes out application more testable - applications built with Angular are more testable, so we can easily write automated tests to test various parts of our application.
+
+So no, we don't need a framework like Angular to build client applications, BUT, using Angular makes your life a lot easier.
