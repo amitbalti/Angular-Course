@@ -1,0 +1,4 @@
+Angular is not a tool to allow us to write static HTML files.
+It allows us to mix static HTML code and dynamic things we want to output in that code.
+
+A component always has a template, the HTML code, possibly has some styling in the css file, and importantly, it has a TypeScript (.ts) file.

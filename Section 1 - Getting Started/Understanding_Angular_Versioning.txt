@@ -1,0 +1,20 @@
+Understanding Angular Versioning
+    - It all started with AngularJS (Angular 1).
+        - This was the first version and it was a totally different version of Angular that worked totally differently.
+        - The Angular team, found out the Angular 1, basically wasn't future proof because of some fundamental flaws in the way it was written.
+        - Therefore they completely rewrote it and the result of that was:
+    - Angular 2 (which was released in 2016).
+        - Angular 2 is a totally different framework than Angular 1, and nowadays unless you have a really good reason, you shouldn't user Angular 1 anymore.
+        - Actually, you also won't be using Angular 2, because there have been a couple of other versions of Angular as well.
+    - There are more versions nowadays, but all of them have the same framework as Angular 2. 
+    - The only difference is between Angular 1 and Angular 2.
+    - We have many versions because the Angular team releases a new major version every 6 month. 
+    - But that does not mean that every 6 months the framework changes entirely. 
+        - Instead, it just means that there is a clear release schedule but the changes from version to version, are pretty minor. 
+    
+    - Angular hasn't changed that much since Angular 2 was released.
+        - It actually has internally, but not regarding the code you write.
+        - Therefore it's super stable and we only have those small, incremental, backwards compatible changes.
+    
+    - Therefore, we typically don't refer to Angular by it's version number, but instead we just differentiate it from Angular 1 (AngularJS), and all the versions from Angular 2 on and higher, are typically referred to as just Angular.
+    - So the framework name is just Angular.

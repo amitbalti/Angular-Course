@@ -1,0 +1,2 @@
+What is Angular?
+    - Angular is a JavaScript Framework which allows you to create reactive SPAs (Single Page Applications).
