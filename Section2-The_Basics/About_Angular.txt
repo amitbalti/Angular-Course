@@ -1,0 +1,14 @@
+'app-root' is not a default HTML element. Instead, is one of our own components.
+The root component of our application, is the component which will tie together our whole application in the end.
+All the files in the 'app' folder, which have component in their name, are related to this 'app-root' component. 
+
+In the 'app.component.ts' file, we can see that we have this @Component decorator, but more importantly we see, that we have the 'selector' property, which assigns a string as a value, and this string holds 'app-root'. 
+    - This clearly is the same text as in our index.html file, and this actually is the information Angular needed to be able to replace the part in the index.html (<app-root></app-root>) with the template of this component (the component having this selector) and the template of this component, simply is the content here in the 'app.component.html' file. 
+
+How is Angular triggered? How is it kicked off to actually run over our body of this index.html file?
+    - In the final index.html file, which is getting served in the browser.
+
+The 'main.ts' file:
+    - Here we see that we get a couple of imports, then we check if we are in production mode or not.
+    - Most importantly this line: platformBrowserDynamic().bootstrapModule(AppModule)
+        - This now bootstraps starts our Angular application by passing an AppModule to this method, and app.module refers to the 'app.module.ts' file.

@@ -2,3 +2,12 @@ Angular is not a tool to allow us to write static HTML files.
 It allows us to mix static HTML code and dynamic things we want to output in that code.
 
 A component always has a template, the HTML code, possibly has some styling in the css file, and importantly, it has a TypeScript (.ts) file.
+
+Angular is split up into multiple modules - sub-packages you could say. We need to add them if we want to use a certain feature from them.
+
+The app.module.ts file is where we tell Angular which pieces belong to our app.
+    - There we have to add something to import another package from Angular.
+    - We need to import it at the top of the file first - because TypeScript always needs to know where things are.
+    - Then we have in this component the 'imports : [];' section. 
+        - This is simply a feature understood by Angular since it's part of an Angular module.
+        - Then it tells Angular that we want to import some form features for example.
